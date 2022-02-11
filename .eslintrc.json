@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
+  "quotes": [
+    "error",
+    "single",
+    {
+      "allowTemplateLiterals": true
+    }
+  ]
 }
